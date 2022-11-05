@@ -149,9 +149,20 @@ nav a{
   .nav-width{
     width: 100%;
   }
+  nav a{
+    padding: 5px 25px;
+    display: block
+  }
 }
 @media (max-width: 992px) {
   .nav-width{
     width: 100%;
   }
+}
+.foot{
+  text-align: center;
+}
+.developer{
+  margin-top: 0px;
+  padding-top: 0px;
 }
