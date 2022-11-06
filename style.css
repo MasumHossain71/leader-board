@@ -7,7 +7,7 @@
 body {
   background-color: #f3f1ff;
 }
-main{   
+main {
   width: 900px;
   max-width: 90%;
   margin: 0 auto;
@@ -23,11 +23,13 @@ section {
   color: #562eff;
 }
 .top-players,
-.blog, .courses{
+.blog,
+.courses {
   display: grid;
   margin: 20px 0px 0px 20px;
 }
-.top-players, .courses{
+.top-players,
+.courses {
   grid-template-columns: repeat(3, 1fr);
 }
 .player,
@@ -43,22 +45,24 @@ section {
   margin-bottom: 25px;
 }
 @media (max-width: 992px) {
-  .top-players, .courses{
+  .top-players,
+  .courses {
     grid-template-columns: repeat(2, 1fr);
   }
-  .course:last-child{
+  .course:last-child {
     margin-top: 30px;
   }
 }
 @media (max-width: 668px) {
-  .top-players, .courses{
+  .top-players,
+  .courses {
     grid-template-columns: repeat(1, 1fr);
   }
-  .course{
+  .course {
     margin-top: 30px;
   }
 }
-.blog{
+.blog {
   grid-gap: 25px;
 }
 .thumbnail img {
@@ -77,92 +81,92 @@ p {
   grid-template-columns: repeat(2, 1fr);
 }
 @media (max-width: 668px) {
-  .blog{
+  .blog {
     grid-template-columns: repeat(1, 1fr);
   }
-  .articls{
-    display:block;
+  .articls {
+    display: block;
   }
 }
 .filled {
   color: gold;
   font-size: 0.8em;
 }
-.course img{
+.course img {
   width: 250px;
 }
-.course{
+.course {
   width: 250px;
   border-radius: 15px;
   box-shadow: 0.5px 0.5px 10px rgb(224, 222, 222);
 }
-.course a{
+.course a {
   text-decoration: none;
   color: #ed6b4f;
 }
-.course-info{
+.course-info {
   display: flex;
   padding-left: 10px;
 }
-.rat-point{
+.rat-point {
   display: inline-block;
   margin-left: 15px;
 }
-.time-stamp{
+.time-stamp {
   margin: 10px 0px 20px 20px;
   background-color: #ffe4e8;
   color: #ff4a60;
   padding: 4px 4.5px;
   border-radius: 15px;
 }
-.course-detail  {
-  padding-left: 10px
+.course-detail {
+  padding-left: 10px;
 }
-header{
+header {
   background-color: #562eff;
   padding: 15px 0px;
 }
-.nav-width{
+.nav-width {
   width: 850px;
   margin: 0 auto;
 }
-.wrapper{
+.wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.title{
+.title {
   display: flex;
   align-items: center;
   color: white;
-  padding:0px 15px;
+  padding: 0px 15px;
 }
-.title i{
+.title i {
   font-size: 50px;
 }
-nav a{
+nav a {
   text-decoration: none;
   color: white;
   padding: 15px;
 }
 @media (max-width: 668px) {
-  .nav-width{
+  .nav-width {
     width: 100%;
   }
-  nav a{
+  nav a {
     padding: 5px 25px;
-    display: block
+    display: block;
   }
 }
 @media (max-width: 992px) {
-  .nav-width{
+  .nav-width {
     width: 100%;
   }
 }
-.foot{
+.foot {
   text-align: center;
 }
-.developer{
+.developer {
   margin-top: 0px;
   padding-top: 0px;
 }
